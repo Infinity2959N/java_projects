@@ -20,3 +20,19 @@ _This is the first line in this JavaFile2.txt file._
   * Total number of lines?
   * Total number of words?
 * Search for the word “polymorphism” in “JavaFile1.txt” and print the line number where it appears and also find the total occurrences of this word in this file.
+
+## Project 2: Online Bank Account Management System:
+Project Overview:
+Design and implement a simple *Online Bank Account Management System* using Java that **demonstrates robust exception handling**. The system should allow users to create accounts, deposit and withdraw money, and view their account balance. It must handle different runtime issues such as invalid input, negative deposit amounts, and withdrawal attempts exceeding the available balance. To manage these scenarios, use Java’s exception handling features including try, catch, finally, multiple catch blocks, throw, throws, and user-defined exceptions. The goal is to ensure the application behaves reliably and gracefully under error conditions, promoting strong programming practices related to exception management.
+
+Create a simple command-line bank account management system where users can:
+* Create an account
+* Deposit money
+* Withdraw money
+* View balance
+
+The program should handle various exception scenarios using:
+* User-defined exceptions for custom error situations
+* try-catch-finally for safe execution
+* Multiple catch blocks for different exception types
+* throw and throws to handle and propagate errors
